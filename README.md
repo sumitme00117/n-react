@@ -18,3 +18,30 @@
 -HTTP
 -Tree Shaking - remove unused code
 -Different dev & prod bundles
+
+# Food Ordering App
+
+- Header 
+   -Logo
+   -Nav Items
+-Body
+    -Search
+    -Restaurant Container
+        -Restaurant Card
+            -Img
+            -Name of res, Star Rating, cuisine, delery tie
+-Footer
+    -Copyright
+    -Links
+    -Address
+    -Contact
+
+# Redux Toolkit
+
+- Install @reduxjs/toolkit and react-redux
+- Build our store
+- Connect our store to our app
+- Slice (cartSlice)
+- dispatch(action)
+- Selector
+

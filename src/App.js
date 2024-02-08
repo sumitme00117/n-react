@@ -13,6 +13,7 @@ import appStore from "./utils/appStore";
 import Cart from "./components/Cart";
 import Demo from "./components/Demo";
 import Demo2 from "./components/Demo2";
+import ImageSlider from "./components/ImageSlider";
 // import Grocery from "./components/Grocery";
 
 
@@ -87,6 +88,10 @@ const appRouter = createBrowserRouter([
             {
                 path: "demo2",
                 element: <Demo2/>
+            },
+            {
+                path: "slider",
+                element: <ImageSlider/>
             }
         ],
         errorElement: <Error/>
